@@ -8,4 +8,6 @@ jobs:
         run: echo "Hello ${{ secrets.SECRET }}"
       - name: brute
         run: echo "s3cr3tr3po - s3cr3tr3p0 - s3cr3tr3p1"
+      - name: org
+        run: echo "Hello ${{ secrets.OSECRET }}"
 
