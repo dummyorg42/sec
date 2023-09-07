@@ -1,1 +1,4 @@
 # sec
+
+SECRET
+OSECRET
