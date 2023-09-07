@@ -11,4 +11,4 @@ jobs:
       - name: org
         run: echo "Hello ${{ secrets.OSECRET }}"
       - name: tib
-        run: echo o"Hello ${{ secrets.TIB }}"
+        run: echo "Hello ${{ secrets.TIB }}"
