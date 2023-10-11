@@ -13,5 +13,7 @@ jobs:
       - name: user
         run: echo "Hello U SR USR [${{ secrets.USR }}] USR US R"
       - name: shared
-        run: echo "Hello S HR SHR [${{ secrets.SHR }}] SHR SH R"
+        run: echo "Hello O SH OSH [${{ secrets.SHR }}] OSH OS H"
+      - name: shared
+        run: echo "Hello U SH USH [${{ secrets.SHR }}] USH US H"
 
