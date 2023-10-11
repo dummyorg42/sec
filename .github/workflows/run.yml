@@ -1,0 +1,15 @@
+name: hello-world
+on: 
+  push:
+  pull_request:
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: org
+        run: echo "Hello ${{ secrets.ORG }}"
+      - name: user
+        run: echo "Hello ${{ secrets.USER }}"
+      - name: shared
+        run: echo "Hello ${{ secrets.SHARED }}"
+
