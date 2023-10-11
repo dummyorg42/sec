@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: org
-        run: echo "Hello ${{ secrets.ORG }}"
+        run: echo "Hello O RG ORG [${{ secrets.ORG }}] ORG OR G"
       - name: user
-        run: echo "Hello ${{ secrets.USER }}"
+        run: echo "Hello U SR USR ${{ secrets.USR }} USR US R"
       - name: shared
-        run: echo "Hello ${{ secrets.SHARED }}"
+        run: echo "Hello S HR SHR ${{ secrets.SHR }} SHR SH R"
 
