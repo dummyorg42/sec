@@ -11,7 +11,7 @@ jobs:
       - name: repo
         run: echo "Hello R EPO REPO [${{ secrets.REPO }}] REPO REP O"
       - name: user
-        run: echo "Hello U SR USR ${{ secrets.USR }} USR US R"
+        run: echo "Hello U SR USR [${{ secrets.USR }}] USR US R"
       - name: shared
-        run: echo "Hello S HR SHR ${{ secrets.SHR }} SHR SH R"
+        run: echo "Hello S HR SHR [${{ secrets.SHR }}] SHR SH R"
 
