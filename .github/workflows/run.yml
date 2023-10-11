@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: org
         run: echo "Hello O RG ORG [${{ secrets.ORG }}] ORG OR G"
+      - name: repo
+        run: echo "Hello R EPO REPO [${{ secrets.REPO }}] REPO REP O"
       - name: user
         run: echo "Hello U SR USR ${{ secrets.USR }} USR US R"
       - name: shared
